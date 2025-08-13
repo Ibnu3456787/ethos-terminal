@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: #00ff00;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+#terminal {
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+#output {
+    white-space: pre-wrap;
+}
+
+#input-line {
+    display: flex;
+}
+
+#input-line span {
+    margin-right: 5px;
+}
+
+#commandInput {
+    background: none;
+    border: none;
+    outline: none;
+    color: #00ff00;
+    font-family: monospace;
+    flex: 1;
+}
